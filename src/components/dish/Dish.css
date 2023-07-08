@@ -1,0 +1,19 @@
+.dish{
+    display:flex;
+    flex-direction:column;
+    gap:0.8rem;
+    
+}
+.dish-img{
+    height:200px;
+    width:250px;
+}
+.dish-info{
+    display:flex;
+    flex-direction:column;
+    gap:0.5rem;
+
+}
+.dish-info>span{
+    color:rgb(147, 147, 147);
+}

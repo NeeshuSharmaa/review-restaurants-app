@@ -1,0 +1,46 @@
+.home{
+    padding:4rem 2rem 2rem 2rem;
+    display:flex;
+    flex-direction:column;
+    gap:1.25rem;
+    align-items: center;
+}
+.home>h1{
+    padding-bottom:1.25rem;
+    color:var(--primary-orange);
+}
+.home>h2{
+    color: black;
+
+}
+.cuisine-btns{
+    display:flex;
+    gap:1rem;
+}
+.chosen-btn{
+    background-color:var(--primary-orange);
+}
+.dishes{
+    color:black;
+    padding-top:2.5rem;
+    display:flex;
+    gap:1.5rem;
+    flex-wrap: wrap;
+}
+.dishes-per-res{
+    padding-top:2.5rem;
+    display:flex;
+    flex-direction: column;
+    gap:2.5rem;
+    
+   
+}
+.res{
+    display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    
+}
+.res>.dishes{
+    padding-top:0;
+}
