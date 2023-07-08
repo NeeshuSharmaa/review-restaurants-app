@@ -7,7 +7,7 @@
 }
 .home>h1{
     padding-bottom:1.25rem;
-    color:var(--primary-orange);
+   
 }
 .home>h2{
     color: black;
@@ -15,10 +15,10 @@
 }
 .cuisine-btns{
     display:flex;
-    gap:1rem;
+    gap:1.5rem;
 }
 .chosen-btn{
-    background-color:var(--primary-orange);
+    border: 4px solid var(--selected-red);
 }
 .dishes{
     color:black;

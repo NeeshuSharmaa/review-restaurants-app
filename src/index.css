@@ -5,20 +5,19 @@
 
 
   background-color: #eff6ff;
-  --primary-orange:#431407;
-  --hover-orange:#ea580c;
+  --primary-red:#e11d48;
+  
+  --hover-red:#c82742;
 
 
 }
 
 a {
   font-weight: 500;
-  color: var(--primary-orange);
+  color: var(--primary-red);
   text-decoration: inherit;
 }
-a:hover {
-  color: var(--hover-orange);
-}
+
 
 body {
   
@@ -38,14 +37,14 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: var(--primary-red);
   color:white;
   cursor: pointer;
   transition: border-color 0.25s;
-  border:4px solid #1a1a1a
+
 }
 button:hover {
-  border:4px solid var(--hover-orange);
+  background-color: var(--hover-red);
 
 }
 button:focus,

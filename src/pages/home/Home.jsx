@@ -23,6 +23,11 @@ export default function Home() {
       <div className="cuisine-btns">
         {cuisineData.map(({ id, name }) => (
           <button
+            style={
+              selectedCuisine === name
+                ? { border: "4px solid #e11d48", color: "#e11d48" }
+                : {}
+            }
             key={id}
             onClick={() => dispatch({ type: "SELECT_CUISINE", payload: id })}
           >
